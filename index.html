@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/interface-tools-starter-colored/48/JD-02-512.png" type="image/x-icon">
+    <title>Color Chooser</title>
+</head>
+
+<body>
+
+    <h1>Color Chooser</h1>
+
+    <div class="slidecontainer">
+        <label for="">R</label>
+        <input type="range" min="0" max="255" value="0" class="slider" id="myRange">
+        <label for="">G</label>
+        <input type="range" min="0" max="255" value="0" class="slider" id="myRange1">
+        <label for="">B</label>
+        <input type="range" min="0" max="255" value="0" class="slider" id="myRange2">
+        <p id="finalColor">rgb(<span id="demo">0</span>, <span id="demo1">0</span>, <span id="demo2">0</span>)</p>
+        <img src="./copy.png" id="copy" title="Copy Color" alt="Copy Icon" width="30px" height="30px"/>
+        <p id="copiedColor"></p>
+        <div class="coloredbox" id="coloredbox"></div>
+        <p id="right">Created By @ Aryan Garg &copy; 2022</p>
+    </div>
+</body>
+<script type="text/javascript" src="./main.js"></script>
+
+</html>
